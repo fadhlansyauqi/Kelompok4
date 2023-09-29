@@ -4,21 +4,21 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Kelompok4</title>
-    <link rel="stylesheet" href="./style.scss" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous" />
   </head>
-  <body>
+  <body
+    class="container-fluid float-sm-end float-md-end float-lg-end float-xl-end float-xxl-end">
     <!-- section navbar -->
     <nav
-      class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow-sm p-1 bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand fw-bold fs-3" href="#"
-          ><span style="color: red">/</span>NAFF.BOUQUET</a
-        >
+      class="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top shadow-sm p-1 mb-5 bg-body-tertiary rounded">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="w-auto h-8" src="./img/Logo.png" alt="" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -29,10 +29,12 @@
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav">
+          <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./aboutUs.html">About</a>
@@ -41,8 +43,9 @@
               <a class="nav-link" href="./article.html">Article</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">FAQ</a>
+              <a class="nav-link" href="./faq.html">FAQ</a>
             </li>
+
             <li class="nav-item">
               <a class="nav-link" href="./product.html">Order</a>
             </li>
@@ -55,12 +58,14 @@
     <!-- section jumbotron -->
     <div class="py-5">
       <div class="p-5 shadow-sm shadow" style="background-color: #ffb6c1">
-        <div class="container-fluid py-5">
+        <div>
           <img
             src="https://cdn.igp.com/f_auto,q_auto,t_pnopt19prodlp/products/p-elegant-rose-bouquet-139330-m.jpg"
-            class="rounded float-end w-25 shadow-sm border-3"
-            style="background-attachment: fixed"
+            class="display-3 img-fluid float-end shadow-sm border-3 rounded mx-auto d-block"
+            style="width: 350px; height: 350px"
             alt="bouquete" />
+        </div>
+        <div class="container-fluid py-5">
           <h1 class="display-4 fw-bold">BOUQUET SINGOSARI</h1>
           <h1 class="display-4 fw-bold" style="color: #ff1493">
             Flower & Gift
@@ -73,7 +78,7 @@
             class="btn btn-lg fw-semibold text-white"
             type="button"
             style="background-color: #ff1493">
-            Pesan Sekarang
+            <a class="nav-link" href="./product.html"> Pesan Sekarang</a>
           </button>
         </div>
       </div>
@@ -95,55 +100,55 @@
     <!-- section rekomendasi -->
     <div class="container-fluid fw-semibold pt-5 text-center">
       <h3>Rekomendasi</h3>
-    </div>
-    <div class="d-flex justify-content-center py-4">
-      <div class="text-center grid gap-3 gap-auto">
-        <div class="row row-cols-1 row-cols-md-4 g-4">
-          <div class="col">
-            <div class="card" style="width: 10rem">
-              <img
-                src="https://filebroker-cdn.lazada.co.id/kf/S39b789eb130c478aa116e240f93a5f33N.jpg"
-                class=""
-                alt="..." />
-              <div class="">
-                <h5 class="card-title" style="color: #ff1493">Bouquet</h5>
-                <p class="card-title fw-bold">Rp.200.000,-</p>
+      <div class="d-flex justify-content-center py-4">
+        <div class="text-center">
+          <div class="row row-cols-2 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card" style="width: 10rem">
+                <img
+                  src="https://filebroker-cdn.lazada.co.id/kf/S39b789eb130c478aa116e240f93a5f33N.jpg"
+                  class=""
+                  alt="..." />
+                <div class="">
+                  <h5 class="card-title" style="color: #ff1493">Bouquet</h5>
+                  <p class="card-title fw-bold">Rp.200.000,-</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 10rem">
-              <img
-                src="https://filebroker-cdn.lazada.co.id/kf/S39b789eb130c478aa116e240f93a5f33N.jpg"
-                class=""
-                alt="..." />
-              <div class="">
-                <h5 class="card-title" style="color: #ff1493">Bouquet</h5>
-                <p class="card-title fw-bold">Rp.200.000,-</p>
+            <div class="col">
+              <div class="card" style="width: 10rem">
+                <img
+                  src="https://filebroker-cdn.lazada.co.id/kf/S39b789eb130c478aa116e240f93a5f33N.jpg"
+                  class=""
+                  alt="..." />
+                <div class="">
+                  <h5 class="card-title" style="color: #ff1493">Bouquet</h5>
+                  <p class="card-title fw-bold">Rp.200.000,-</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 10rem">
-              <img
-                src="https://filebroker-cdn.lazada.co.id/kf/S39b789eb130c478aa116e240f93a5f33N.jpg"
-                class=""
-                alt="..." />
-              <div class="">
-                <h5 class="card-title" style="color: #ff1493">Bouquet</h5>
-                <p class="card-title fw-bold">Rp.200.000,-</p>
+            <div class="col">
+              <div class="card" style="width: 10rem">
+                <img
+                  src="https://filebroker-cdn.lazada.co.id/kf/S39b789eb130c478aa116e240f93a5f33N.jpg"
+                  class=""
+                  alt="..." />
+                <div class="">
+                  <h5 class="card-title" style="color: #ff1493">Bouquet</h5>
+                  <p class="card-title fw-bold">Rp.200.000,-</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 10rem">
-              <img
-                src="https://filebroker-cdn.lazada.co.id/kf/S39b789eb130c478aa116e240f93a5f33N.jpg"
-                class=""
-                alt="..." />
-              <div class="">
-                <h5 class="card-title" style="color: #ff1493">Bouquet</h5>
-                <p class="card-title fw-bold">Rp.200.000,-</p>
+            <div class="col">
+              <div class="card" style="width: 10rem">
+                <img
+                  src="https://filebroker-cdn.lazada.co.id/kf/S39b789eb130c478aa116e240f93a5f33N.jpg"
+                  class=""
+                  alt="..." />
+                <div class="">
+                  <h5 class="card-title" style="color: #ff1493">Bouquet</h5>
+                  <p class="card-title fw-bold">Rp.200.000,-</p>
+                </div>
               </div>
             </div>
           </div>
