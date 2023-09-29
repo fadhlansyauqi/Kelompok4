@@ -27,16 +27,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 420px;
   }
   .testimoni{
     text-align: center;
-    padding-top: 90px;
-
+    padding-top: 30px;
   }
-
-  #myCarousel {
-    box-shadow: 0px 0px 20px 20px rgba(1, 1, 1, 0.1);
+  .carousel-inner{
+    border-radius: 20px;
+  }
+  .pink{
+    height: 140px;
   }
 </style>
 </head>
@@ -81,9 +82,34 @@
         </div>
   </header>
 
+  <div class="py-5">
+    <div class="p-5 shadow-sm shadow" style="background-color: #ffb6c1">
+      <div class="container-fluid py-5">
+        <img
+          src="https://cdn.igp.com/f_auto,q_auto,t_pnopt19prodlp/products/p-elegant-rose-bouquet-139330-m.jpg"
+          class="rounded float-end w-25 shadow-sm border-3"
+          style="background-attachment: fixed"
+          alt="bouquete" />
+        <h1 class="display-4 fw-bold">BOUQUET SINGOSARI</h1>
+        <h1 class="display-4 fw-bold" style="color: #ff1493">
+          Flower & Gift
+        </h1>
+        <p class="col-md-6 fs-6">
+          Bouquet Singosari Flower And Gift menyediakan berbagai macam pilihan
+          paket terbaik Bouquet untuk hari sepesial anda
+        </p>
+        <button
+          class="btn btn-lg fw-semibold text-white"
+          type="button"
+          style="background-color: #ff1493">
+          Pesan Sekarang
+        </button>
+      </div>
+    </div>
+  </div>
+
   <section >
-  <div style="background-color: #FFB6C1;
-  height: 650px;">
+  <div style="height: 550px;">
 
     <h2 class="testimoni">Testimoni</h2>
     <div class="center-content">
@@ -116,57 +142,68 @@
   </div>
   </section>
   
-  <section class="faq container p-5 mb-5">
-    <h2 style="text-align: center; margin-bottom: 50px;">FaQ</h2>
-    <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Accordion pertama
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              tes1
-            </div>
-          </div>
+
+  <section>
+    <div class="pink">
+        <img src="./img/pink.png">
+    </div>
+    
+    <div style="height: 450px;">
+    
+        <div class="faq container px-5 mtx-5"  >
+    
+            <h2 style="text-align: center; margin-bottom: 50px;">FaQ</h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Apa itu Naff.bouquet?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body" style="background-color: white;">
+                      Naff.Bouquet adalah bisnis yang menyediakan berbagai macam bunga dengan berbagai paket pembeliann yang ramah dikantong.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Bagaimana cara memesan buket di Naff.bouquet?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Kalian bisa memesannya melalui chat di nomor yang tertera di bio Instagram Naff.Bouquet
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Berapa lama waktu yang diperlukan untuk membuat buket di Naff.Bouquet?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Kami dapat membuat Bouquet kalian hanya dalam waktu kurang lebih 5 jam.
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                      Bouquet apa saja yang disediakan Naff.Bouquet
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      kami membuat 5 variasi yaitu :  Snack Bouquet, Money Bouquet, Hijab Bouquet, Snake Cake, Give Box Hampers.
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              accordion kedua
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              tes
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              accordion ketiga
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-                tes
-            </div>
-          </div>
-          <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-              accordion keempat
-            </button>
-          </h2>
-          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              tes
-            </div>
-          </div>
-        </div>
-      </div>
+    </div>
 </section>
 
  
