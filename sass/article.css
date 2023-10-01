@@ -1,0 +1,17 @@
+.btn .btn-danger {
+  background-color: #ff1493;
+}
+
+#blog {
+  background-color: #FFB6C1;
+}
+
+#pesan {
+  background-color: #ff1493;
+}
+
+#gambar {
+  filter: invert(1);
+}
+
+/*# sourceMappingURL=article.css.map */

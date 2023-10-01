@@ -1,0 +1,18 @@
+$backgorund-color: #FFB6C1;
+$btn-danger: #ff1493;
+
+.btn .btn-danger {
+    background-color :$btn-danger;
+}
+
+#blog {
+    background-color: $backgorund-color;
+}
+
+#pesan {
+    background-color: $btn-danger;
+}
+
+#gambar {
+   filter: invert(1);
+}
