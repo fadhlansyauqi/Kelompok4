@@ -6,6 +6,8 @@ $danger: #ff1493;
 }
 
 #card:hover {
+    box-shadow: 20px 20px 30px rgba(18, 19, 19, 0.15);
+    transform: translateY(-10px);
     background-color: $backgorund-color;
     transition: 0.5s;
 }
@@ -18,11 +20,11 @@ $danger: #ff1493;
     background-color: $danger;
 }
 
-#gambar {
-   filter: invert(1);
-}
-
 #link:hover {
     color: $danger;
     transition: 0.5s;
+}
+
+#gambar {
+   filter: invert(1);
 }
