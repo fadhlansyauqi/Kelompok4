@@ -1,8 +1,13 @@
 $backgorund-color: #FFB6C1;
-$btn-danger: #ff1493;
+$danger: #ff1493;
 
 .btn .btn-danger {
-    background-color :$btn-danger;
+    background-color :$danger;
+}
+
+#card:hover {
+    background-color: $backgorund-color;
+    transition: 0.5s;
 }
 
 #blog {
@@ -10,9 +15,14 @@ $btn-danger: #ff1493;
 }
 
 #pesan {
-    background-color: $btn-danger;
+    background-color: $danger;
 }
 
 #gambar {
    filter: invert(1);
+}
+
+#link:hover {
+    color: $danger;
+    transition: 0.5s;
 }

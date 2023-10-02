@@ -2,6 +2,11 @@
   background-color: #ff1493;
 }
 
+#card:hover {
+  background-color: #FFB6C1;
+  transition: 0.5s;
+}
+
 #blog {
   background-color: #FFB6C1;
 }
@@ -12,6 +17,11 @@
 
 #gambar {
   filter: invert(1);
+}
+
+#link:hover {
+  color: #ff1493;
+  transition: 0.5s;
 }
 
 /*# sourceMappingURL=article.css.map */
