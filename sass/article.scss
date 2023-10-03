@@ -25,6 +25,18 @@ $danger: #ff1493;
     transition: 0.5s;
 }
 
-#gambar {
-   filter: invert(1);
+// fungsi
+$pixel: 10px;
+
+@function atur-tinggi-lebar($n) {
+    @return $n * $pixel;
 }
+
+#bunga {
+    max-height: atur-tinggi-lebar(20);
+}
+
+#gambar {
+    filter: invert(1);
+    height: atur-tinggi-lebar(3);
+ }

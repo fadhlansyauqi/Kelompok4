@@ -22,8 +22,13 @@
   transition: 0.5s;
 }
 
+#bunga {
+  max-height: 200px;
+}
+
 #gambar {
   filter: invert(1);
+  height: 30px;
 }
 
 /*# sourceMappingURL=article.css.map */
