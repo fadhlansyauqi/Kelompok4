@@ -1,12 +1,24 @@
+$font-open-sans: "Open Sans", sans-serif;
+$font-roboto: "Roboto", sans-serif;
+$color-text: #333;
+$color-accent: #ffdc12;
+$color-link: #eb7245;
+$color-gray: #999;
+$color-bg: #e2e2e2;
+$color-bg-active: #888;
+$carousel-width: 650px;
+$carousel-control-size: 30px;
+
+
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: $font-open-sans;
 }
 
 h2 {
-    color: #333;
+    color: $color-text;
     text-align: center;
     text-transform: uppercase;
-    font-family: "Roboto", sans-serif;
+    font-family: $font-roboto;
     font-weight: bold;
     position: relative;
     margin: 25px 0 50px;
@@ -17,7 +29,7 @@ h2 {
         position: absolute;
         margin: 0 auto;
         height: 3px;
-        background: #ffdc12;
+        background: $color-accent;
         left: 0;
         right: 0;
         bottom: -10px;
@@ -25,19 +37,19 @@ h2 {
 }
 
 .carousel {
-    width: 650px;
+    width: $carousel-width;
     margin: 0 auto;
     padding-bottom: 50px;
 
     .carousel-item {
-        color: #999;
+        color: $color-gray;
         font-size: 14px;
         text-align: center;
         overflow: hidden;
         min-height: 340px;
 
         a {
-            color: #eb7245;
+            color: $color-link;
         }
 
         .img-box {
@@ -56,33 +68,33 @@ h2 {
 
         .testimonial {
             padding: 30px 0 10px;
-        }
 
-        .overview {
-            text-align: center;
-            padding-bottom: 5px;
-
-            b {
-                color: #333;
-                font-size: 15px;
-                text-transform: uppercase;
-                display: block;
+            .overview {
+                text-align: center;
                 padding-bottom: 5px;
-            }
-        }
 
-        .star-rating i {
-            font-size: 18px;
-            color: #ffdc12;
+                b {
+                    color: $color-text;
+                    font-size: 15px;
+                    text-transform: uppercase;
+                    display: block;
+                    padding-bottom: 5px;
+                }
+            }
+
+            .star-rating i {
+                font-size: 18px;
+                color: $color-accent;
+            }
         }
     }
 
     .carousel-control-prev,
     .carousel-control-next {
-        width: 30px;
-        height: 30px;
+        width: $carousel-control-size;
+        height: $carousel-control-size;
         border-radius: 50%;
-        background: #999;
+        background: $color-gray;
         text-shadow: none;
         top: 4px;
 
@@ -90,13 +102,13 @@ h2 {
             font-size: 20px;
             margin-right: 2px;
         }
-    }
 
-    .carousel-control-prev {
-        left: auto;
-        right: 40px;
+        &.carousel-control-prev {
+            left: auto;
+            right: 40px;
+        }
 
-        i {
+        .carousel-control-next i {
             margin-right: -2px;
         }
     }
@@ -110,15 +122,15 @@ h2 {
             height: 11px;
             margin: 1px 5px;
             border-radius: 50%;
+
+            &.active {
+                background: $color-bg-active;
+            }
         }
 
         li {
-            background: #e2e2e2;
+            background: $color-bg;
             border: none;
-        }
-
-        li.active {
-            background: #888;
         }
     }
 }

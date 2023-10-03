@@ -53,18 +53,18 @@ h2::after {
 .carousel .carousel-item .testimonial {
   padding: 30px 0 10px;
 }
-.carousel .carousel-item .overview {
+.carousel .carousel-item .testimonial .overview {
   text-align: center;
   padding-bottom: 5px;
 }
-.carousel .carousel-item .overview b {
+.carousel .carousel-item .testimonial .overview b {
   color: #333;
   font-size: 15px;
   text-transform: uppercase;
   display: block;
   padding-bottom: 5px;
 }
-.carousel .carousel-item .star-rating i {
+.carousel .carousel-item .testimonial .star-rating i {
   font-size: 18px;
   color: #ffdc12;
 }
@@ -82,11 +82,13 @@ h2::after {
   font-size: 20px;
   margin-right: 2px;
 }
-.carousel .carousel-control-prev {
+.carousel .carousel-control-prev.carousel-control-prev,
+.carousel .carousel-control-next.carousel-control-prev {
   left: auto;
   right: 40px;
 }
-.carousel .carousel-control-prev i {
+.carousel .carousel-control-prev .carousel-control-next i,
+.carousel .carousel-control-next .carousel-control-next i {
   margin-right: -2px;
 }
 .carousel .carousel-indicators {
@@ -99,12 +101,13 @@ h2::after {
   margin: 1px 5px;
   border-radius: 50%;
 }
+.carousel .carousel-indicators li.active,
+.carousel .carousel-indicators li.active.active {
+  background: #888;
+}
 .carousel .carousel-indicators li {
   background: #e2e2e2;
   border: none;
-}
-.carousel .carousel-indicators li.active {
-  background: #888;
 }
 
 /*# sourceMappingURL=index.css.map */
