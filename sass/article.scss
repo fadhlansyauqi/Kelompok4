@@ -1,0 +1,30 @@
+$backgorund-color: #FFB6C1;
+$danger: #ff1493;
+
+.btn .btn-danger {
+    background-color :$danger;
+}
+
+#card:hover {
+    box-shadow: 20px 20px 30px rgba(18, 19, 19, 0.15);
+    transform: translateY(-10px);
+    background-color: $backgorund-color;
+    transition: 0.5s;
+}
+
+#blog {
+    background-color: $backgorund-color;
+}
+
+#pesan {
+    background-color: $danger;
+}
+
+#link:hover {
+    color: $danger;
+    transition: 0.5s;
+}
+
+#gambar {
+   filter: invert(1);
+}
