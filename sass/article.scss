@@ -1,5 +1,8 @@
+@use 'colorArticle';
+@import "modalArticle";
+
 $backgorund-color: #FFB6C1;
-$danger: #ff1493;
+$danger: $pink;
 
 .btn .btn-danger {
     background-color :$danger;
