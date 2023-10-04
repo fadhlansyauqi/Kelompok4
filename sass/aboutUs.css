@@ -1,3 +1,30 @@
+#background {
+  background-color: #FFB6C1;
+}
+
+#head {
+  background-color: #ff1493;
+}
+
+#head1 {
+  color: #ff1493;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img-fluid {
+  transition: transform 0.3s ease-in-out;
+  border-radius: 30px;
+}
+
+.img-fluid:hover {
+  transform: scale(1.1);
+}
+
 .map-container {
   position: relative;
   overflow: hidden;

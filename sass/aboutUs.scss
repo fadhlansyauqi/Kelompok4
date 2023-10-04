@@ -1,3 +1,33 @@
+ $backgorund-color: #FFB6C1;
+ $backgorund-color1: #ff1493;
+
+ #background {
+     background-color: $backgorund-color;
+ }
+
+ #head {
+     background-color: $backgorund-color1;
+ }
+
+ #head1 {
+     color: $backgorund-color1;
+ }
+
+ body {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .img-fluid {
+     transition: transform 0.3s ease-in-out;
+     border-radius: 30px;
+ }
+
+ .img-fluid:hover {
+     transform: scale(1.1);
+ }
+
  .map-container {
      position: relative;
      overflow: hidden;
