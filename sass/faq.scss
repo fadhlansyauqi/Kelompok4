@@ -1,3 +1,4 @@
+$primaryColor: #E7C8E7;
 .center-content {
   display: flex;
   justify-content: center;
@@ -11,11 +12,11 @@
 
 .pink {
   height: 140px;
-  background-color: #E7C8E7;
+  background-color: $primaryColor;
 }
 
 .carousel-button {
-  background-color: #FFB6C1;
+  background-color: $primaryColor;
   width: 50px;
   height: 50px;
   border: none;
