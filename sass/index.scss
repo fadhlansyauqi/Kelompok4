@@ -19,6 +19,18 @@ $backgorund-color: #FFB6C1;
     background-color: $backgorund-color;
 }
 
+$first-width: 5px;
+$second-width: 5px;
+
+@function atur-width($n) {
+  @return $n * $first-width + ($n - 1) * $second-width;
+}
+
+#set_width {
+  padding-left: atur-width(10);
+}
+
+
 body {
     font-family: $font-open-sans;
 }

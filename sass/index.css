@@ -1,3 +1,7 @@
+#set_width {
+  padding-left: 95px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -108,6 +112,7 @@ h2::after {
 .carousel .carousel-indicators li {
   background: #e2e2e2;
   border: none;
+<<<<<<< HEAD
 }
 
 .btn-modal-rekomendasi {
@@ -117,3 +122,6 @@ h2::after {
 }
 
 /*# sourceMappingURL=index.css.map */
+=======
+}/*# sourceMappingURL=index.css.map */
+>>>>>>> 0ead810ff6594f754f6a1690e18b573e3cf6b45f
