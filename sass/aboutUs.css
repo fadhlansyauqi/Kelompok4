@@ -1,13 +1,13 @@
-#background {
-  background-color: #FFB6C1;
-}
-
 #head {
   background-color: #ff1493;
 }
 
 #head1 {
   color: #ff1493;
+}
+
+#background {
+  background-color: #FFB6C1;
 }
 
 body {
@@ -23,6 +23,10 @@ body {
 
 .img-fluid:hover {
   transform: scale(1.1);
+}
+
+.img-fluid {
+  width: 290px;
 }
 
 .map-container {
