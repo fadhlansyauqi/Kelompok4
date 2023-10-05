@@ -1,3 +1,6 @@
+@use 'footerColor';
+@import "buttonModalRekomendasi";
+
 $font-open-sans: "Open Sans", sans-serif;
 $font-roboto: "Roboto", sans-serif;
 $color-text: #333;
@@ -9,6 +12,12 @@ $color-bg-active: #888;
 $carousel-width: 650px;
 $carousel-control-size: 30px;
 
+$backgorund-color: #FFB6C1;
+
+
+.btn-modal-rekomendasi{
+    background-color: $backgorund-color;
+}
 
 body {
     font-family: $font-open-sans;
@@ -134,3 +143,4 @@ h2 {
         }
     }
 }
+

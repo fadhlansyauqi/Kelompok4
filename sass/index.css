@@ -110,4 +110,10 @@ h2::after {
   border: none;
 }
 
+.btn-modal-rekomendasi {
+  background-color: pink;
+  color: white;
+  border: #e2e2e2;
+}
+
 /*# sourceMappingURL=index.css.map */
