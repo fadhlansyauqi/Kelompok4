@@ -1,3 +1,6 @@
+ @use 'textaboutUs';
+ @import 'teksaboutUs';
+
  // variable global
  $backgorund-color1: #ff1493;
 
@@ -20,6 +23,10 @@
      margin: 0;
      padding: 0;
      box-sizing: border-box;
+ }
+
+ h5 {
+     text-align: center;
  }
 
  // Css Gambar
