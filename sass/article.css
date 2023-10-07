@@ -2,6 +2,42 @@
   background-color: #FFB6C1;
 }
 
+#header {
+  background-color: #FFB6C1;
+}
+
+#teks-header {
+  color: #ff1493;
+}
+
+.text-size-1 {
+  font-size: 8px;
+}
+
+.text-size-2 {
+  font-size: 16px;
+}
+
+.text-size-3 {
+  font-size: 24px;
+}
+
+.text-size-4 {
+  font-size: 32px;
+}
+
+.text-size-5 {
+  font-size: 40px;
+}
+
+.text-size-6 {
+  font-size: 48px;
+}
+
+.text-size-7 {
+  font-size: 56px;
+}
+
 .btn .btn-danger {
   background-color: #ff1493;
 }

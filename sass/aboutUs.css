@@ -1,5 +1,10 @@
-#background {
-  background-color: #FFB6C1;
+.tengah {
+  text-align: center;
+}
+
+h3 {
+  font-size: 36px;
+  text-align: center;
 }
 
 #head {
@@ -10,10 +15,18 @@
   color: #ff1493;
 }
 
+#background {
+  background-color: #FFB6C1;
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h5 {
+  text-align: center;
 }
 
 .img-fluid {
@@ -23,6 +36,10 @@ body {
 
 .img-fluid:hover {
   transform: scale(1.1);
+}
+
+.img-fluid {
+  width: 290px;
 }
 
 .map-container {

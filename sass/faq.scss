@@ -1,0 +1,46 @@
+$primaryColor: #E7C8E7;
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 420px;
+}
+
+$first-width: 5px;
+$second-width: 5px;
+
+@function atur-width($n) {
+  @return $n * $first-width + ($n - 1) * $second-width;
+}
+
+#set_width {
+  padding-left: atur-width(10);
+}
+
+.carousel-inner {
+  border-radius: 20px;
+}
+
+.pink {
+  height: 140px;
+  background-color: $primaryColor;
+}
+
+.carousel-button {
+  background-color: $primaryColor;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 100px;
+}
+
+h1 {
+  color: rgb(58, 58, 58);
+  margin: 0;
+}
+
+.Faq {
+  text-align: center;
+  padding-top: 50px;
+}
+

@@ -1,0 +1,28 @@
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 420px;
+}
+
+.carousel-inner {
+  border-radius: 20px;
+}
+
+.carousel-button {
+  background-color: #FFB6C1;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 100px;
+}
+
+h1 {
+  color: rgb(58, 58, 58);
+  margin: 0;
+}
+
+.Faq {
+  text-align: center;
+  padding-top: 50px;
+}/*# sourceMappingURL=faq.css.map */

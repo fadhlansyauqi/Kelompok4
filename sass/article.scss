@@ -1,8 +1,47 @@
 @use 'colorArticle';
 @import "modalArticle";
 
+$primary-color: red;
 $backgorund-color: #FFB6C1;
 $danger: $pink;
+
+//kondisi
+#header {
+    @if $primary-color == blue { 
+        background-color: $danger; 
+    } 
+    
+    @else if $primary-color == red { 
+        background-color: $backgorund-color 
+    } 
+    
+    @else { 
+        background-color: black; 
+    } 
+}
+
+#teks-header {
+    @if $primary-color == red { 
+        color: $danger; 
+    } 
+    
+    @else if $primary-color == blue { 
+        color: $backgorund-color 
+    } 
+    
+    @else { 
+        color: black; 
+    } 
+}
+
+//perulangan
+$font-size: 8px;
+@for $n from 1 through 7 {
+    .text-size-#{$n} {
+        font-size: $font-size * $n;
+    }
+}
+
 
 .btn .btn-danger {
     background-color :$danger;

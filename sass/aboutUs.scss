@@ -1,9 +1,8 @@
- $backgorund-color: #FFB6C1;
- $backgorund-color1: #ff1493;
+ @use 'textaboutUs';
+ @import 'teksaboutUs';
 
- #background {
-     background-color: $backgorund-color;
- }
+ // variable global
+ $backgorund-color1: #ff1493;
 
  #head {
      background-color: $backgorund-color1;
@@ -13,12 +12,24 @@
      color: $backgorund-color1;
  }
 
+ // variable scope
+ #background {
+     $backgorund-color: #FFB6C1;
+     background-color: $backgorund-color;
+ }
+
+ // css body
  body {
      margin: 0;
      padding: 0;
      box-sizing: border-box;
  }
 
+ h5 {
+     text-align: center;
+ }
+
+ // Css Gambar
  .img-fluid {
      transition: transform 0.3s ease-in-out;
      border-radius: 30px;
@@ -28,6 +39,19 @@
      transform: scale(1.1);
  }
 
+ // fungsi
+ $first-width: 10px;
+ $second-width: 10px;
+
+ @function atur-width($n) {
+     @return $n * $first-width +($n - 1) * $second-width;
+ }
+
+ .img-fluid {
+     width: atur-width(15);
+ }
+
+ // Css Maps
  .map-container {
      position: relative;
      overflow: hidden;
