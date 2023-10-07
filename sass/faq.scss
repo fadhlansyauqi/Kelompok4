@@ -6,6 +6,17 @@ $primaryColor: #E7C8E7;
   height: 420px;
 }
 
+$first-width: 5px;
+$second-width: 5px;
+
+@function atur-width($n) {
+  @return $n * $first-width + ($n - 1) * $second-width;
+}
+
+#set_width {
+  padding-left: atur-width(10);
+}
+
 .carousel-inner {
   border-radius: 20px;
 }
