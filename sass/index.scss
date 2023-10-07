@@ -3,6 +3,7 @@
 
 $font-open-sans: "Open Sans", sans-serif;
 $font-roboto: "Roboto", sans-serif;
+$magenta:#ff00ff;
 $color-text: #333;
 $color-accent: #ffdc12;
 $color-link: #eb7245;
@@ -12,27 +13,48 @@ $color-bg-active: #888;
 $carousel-width: 650px;
 $carousel-control-size: 30px;
 
-$backgorund-color: #FFB6C1;
+//kondisi dan perulangan tugas praktek 11 btn rekomendasi
+$primary-color: magenta;
+$secondary-color: pink;
 
+#container {
+    text-align: center;
+    margin-top: 100px;
 
-.btn-modal-rekomendasi{
-    background-color: $backgorund-color;
+    h1 {
+        font-size: 24px;
+    }
+
+    #btn {
+        padding: 10px 20px;
+        font-size: 18px;
+
+        &:hover {
+            background-color: $secondary-color;
+        }
+
+        &:active {
+            background-color: $primary-color;
+            color: white;
+        }
+    }
 }
 
-$first-width: 5px;
-$second-width: 5px;
+// Kondisi if, else, dan else if
+#status {
+    font-size: 20px;
 
-@function atur-width($n) {
-  @return $n * $first-width + ($n - 1) * $second-width;
-}
+    @if $primary-color ==magenta {
+        color: $primary-color;
+    }
 
-#set_width {
-  padding-left: atur-width(10);
-}
+    @else if $primary-color ==pink {
+        color: $secondary-color;
+    }
 
-
-body {
-    font-family: $font-open-sans;
+    @else {
+        color: black;
+    }
 }
 
 h2 {
@@ -155,4 +177,6 @@ h2 {
         }
     }
 }
+
+
 
