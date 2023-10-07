@@ -1,3 +1,11 @@
+#footer {
+  background-color: #FFB6C1;
+}
+
+.btn-modal-rekomendasi {
+  background-color: #FFB6C1;
+}
+
 #set_width {
   padding-left: 95px;
 }
@@ -112,16 +120,4 @@ h2::after {
 .carousel .carousel-indicators li {
   background: #e2e2e2;
   border: none;
-<<<<<<< HEAD
-}
-
-.btn-modal-rekomendasi {
-  background-color: pink;
-  color: white;
-  border: #e2e2e2;
-}
-
-/*# sourceMappingURL=index.css.map */
-=======
 }/*# sourceMappingURL=index.css.map */
->>>>>>> 0ead810ff6594f754f6a1690e18b573e3cf6b45f

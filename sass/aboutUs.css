@@ -1,3 +1,12 @@
+.tengah {
+  text-align: center;
+}
+
+h3 {
+  font-size: 36px;
+  text-align: center;
+}
+
 #head {
   background-color: #ff1493;
 }
@@ -14,6 +23,10 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h5 {
+  text-align: center;
 }
 
 .img-fluid {
