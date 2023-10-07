@@ -1,10 +1,6 @@
-$primary-color: #FFB6C1;
-$secondary-color: #ff8fa4;
+@import 'colorProduct'; // 
+@import 'functionsProduct'; //
 
-@function kaliSepuluh($x) {
-    @return $x * 10;
-}
- 
  /* Produk Terfavorit */
 
  .product {
