@@ -40,9 +40,9 @@ $secondary-color: pink;
     }
 }
 
-// Kondisi if, else, dan else if
+// Kondisi if, else, dan else if tugas praktek 11
 #status {
-    font-size: 20px;
+    font-size: 80px;
 
     @if $primary-color ==magenta {
         color: $primary-color;
