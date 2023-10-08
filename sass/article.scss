@@ -47,6 +47,10 @@ $font-size: 8px;
     background-color :$danger;
 }
 
+.active {
+    color: $danger;
+}
+
 #card:hover {
     box-shadow: 20px 20px 30px rgba(18, 19, 19, 0.15);
     transform: translateY(-10px);
