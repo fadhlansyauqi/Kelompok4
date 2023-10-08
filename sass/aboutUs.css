@@ -31,7 +31,7 @@ h5 {
 
 .img-fluid {
   transition: transform 0.3s ease-in-out;
-  border-radius: 30px;
+  border-radius: 3rem 3rem 0 5rem;
 }
 
 .img-fluid:hover {
@@ -40,6 +40,10 @@ h5 {
 
 .img-fluid {
   width: 290px;
+}
+
+#find {
+  margin-top: 100px;
 }
 
 .map-container {

@@ -32,12 +32,13 @@
  // Css Gambar
  .img-fluid {
      transition: transform 0.3s ease-in-out;
-     border-radius: 30px;
+     border-radius: 3rem 3rem 0 5rem;
  }
 
  .img-fluid:hover {
      transform: scale(1.1);
  }
+
 
  // fungsi
  $first-width: 10px;
@@ -49,6 +50,11 @@
 
  .img-fluid {
      width: atur-width(15);
+ }
+
+ //  find us
+ #find {
+     margin-top: 100px;
  }
 
  // Css Maps
