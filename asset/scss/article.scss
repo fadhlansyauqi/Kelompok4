@@ -3,7 +3,7 @@
 
 $primary-color: red;
 $backgorund-color: #FFB6C1;
-$danger: $pink;
+$danger: $pink;                     //$pink dari _colorArticle.scss
 
 //kondisi
 #header {
@@ -42,32 +42,16 @@ $font-size: 8px;
     }
 }
 
-
+// tombol lihat penjelasan menjadi pink
 .btn .btn-danger {
     background-color :$danger;
 }
 
-.active {
-    color: $danger;
-}
-
+// card bunga dan filosofinya
 #card:hover {
     box-shadow: 20px 20px 30px rgba(18, 19, 19, 0.15);
     transform: translateY(-10px);
     background-color: $backgorund-color;
-    transition: 0.5s;
-}
-
-#blog {
-    background-color: $backgorund-color;
-}
-
-#pesan {
-    background-color: $danger;
-}
-
-#link:hover {
-    color: $danger;
     transition: 0.5s;
 }
 
@@ -78,11 +62,33 @@ $pixel: 10px;
     @return $n * $pixel;
 }
 
+//atur tinggi gambar bunga dan filosofinya
 #bunga {
     max-height: atur-tinggi-lebar(20);
 }
 
+//background color content blog
+#blog {
+    background-color: $backgorund-color;
+}
+
+//link blog
+#link:hover {
+    color: $danger;
+    transition: 0.5s;
+}
+
+// tombol pesan sekarang
+#pesan {
+    background-color: $danger;
+}
+
+// gambar keranjang di tombol pesan sekarang
 #gambar {
     filter: invert(1);
-    height: atur-tinggi-lebar(3);
- }
+    height: atur-tinggi-lebar(3);      // 3 dari fungsi (3 x 10px)
+}
+
+#imgCTA {
+    width: atur-tinggi-lebar(30);
+}

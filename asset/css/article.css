@@ -49,12 +49,12 @@
   transition: 0.5s;
 }
 
-#blog {
-  background-color: #FFB6C1;
+#bunga {
+  max-height: 200px;
 }
 
-#pesan {
-  background-color: #ff1493;
+#blog {
+  background-color: #FFB6C1;
 }
 
 #link:hover {
@@ -62,13 +62,17 @@
   transition: 0.5s;
 }
 
-#bunga {
-  max-height: 200px;
+#pesan {
+  background-color: #ff1493;
 }
 
 #gambar {
   filter: invert(1);
   height: 30px;
+}
+
+#imgCTA {
+  width: 300px;
 }
 
 /*# sourceMappingURL=article.css.map */
