@@ -1,0 +1,76 @@
+#footer {
+  background-color: #FFB6C1;
+}
+
+#header {
+  background-color: #FFB6C1;
+}
+
+#teks-header {
+  color: #ff1493;
+}
+
+.text-size-1 {
+  font-size: 8px;
+}
+
+.text-size-2 {
+  font-size: 16px;
+}
+
+.text-size-3 {
+  font-size: 24px;
+}
+
+.text-size-4 {
+  font-size: 32px;
+}
+
+.text-size-5 {
+  font-size: 40px;
+}
+
+.text-size-6 {
+  font-size: 48px;
+}
+
+.text-size-7 {
+  font-size: 56px;
+}
+
+.btn .btn-danger {
+  background-color: #ff1493;
+}
+
+#card:hover {
+  box-shadow: 20px 20px 30px rgba(18, 19, 19, 0.15);
+  transform: translateY(-10px);
+  background-color: #FFB6C1;
+  transition: 0.5s;
+}
+
+#bunga {
+  max-height: 200px;
+}
+
+#blog {
+  background-color: #FFB6C1;
+}
+
+#link:hover {
+  color: #ff1493;
+  transition: 0.5s;
+}
+
+#pesan {
+  background-color: #ff1493;
+}
+
+#gambar {
+  filter: invert(1);
+  height: 30px;
+}
+
+#imgCTA {
+  width: 300px;
+}/*# sourceMappingURL=article.css.map */
