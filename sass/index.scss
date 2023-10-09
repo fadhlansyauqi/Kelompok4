@@ -16,6 +16,7 @@ $carousel-control-size: 30px;
 //kondisi dan perulangan tugas praktek 11 btn rekomendasi
 $primary-color: magenta;
 $secondary-color: pink;
+$base-font-size: 12px;
 
 #container {
     text-align: center;
@@ -42,7 +43,7 @@ $secondary-color: pink;
 
 // Kondisi if, else, dan else if tugas praktek 11
 #status {
-    font-size: 80px;
+    font-size: 20px;
 
     @if $primary-color ==magenta {
         color: $primary-color;
@@ -54,6 +55,13 @@ $secondary-color: pink;
 
     @else {
         color: black;
+    }
+}
+
+//perulangan tp 11 di footer alamat
+@for $i from 1 to 4 {
+    #text-display-#{$i} {
+        font-size: $base-font-size * $i;
     }
 }
 

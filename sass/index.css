@@ -22,8 +22,20 @@
 }
 
 #status {
-  font-size: 80px;
+  font-size: 20px;
   color: magenta;
+}
+
+#text-display-1 {
+  font-size: 12px;
+}
+
+#text-display-2 {
+  font-size: 24px;
+}
+
+#text-display-3 {
+  font-size: 36px;
 }
 
 h2 {
@@ -132,4 +144,6 @@ h2::after {
 .carousel .carousel-indicators li {
   background: #e2e2e2;
   border: none;
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */
