@@ -1,77 +1,88 @@
- @use 'textaboutUs';
- @import 'teksaboutUs';
+@use 'textaboutUs';
+@import 'teksaboutUs';
 
- // variable global
- $backgorund-color1: #ff1493;
+// variable global
+$background-color1: #ff1493;
+$theme: 'default';
+$themes: (
+    'default',
+    'summer',
+    'winter'
+);
 
- #head {
-     background-color: $backgorund-color1;
- }
+#background {
+    @if $theme =='default' {
+        background-color: #ff1493;
+    }
 
- #head1 {
-     color: $backgorund-color1;
- }
+    @else if $theme =='summer' {
+        background-color: #ffcc00;
+    }
 
- // variable scope
- #background {
-     $backgorund-color: #FFB6C1;
-     background-color: $backgorund-color;
- }
+    @else if $theme =='winter' {
+        background-color: #99ccff;
+    }
 
- //  Kondisi atau Perulangan
+    @else {
+        background-color: $background-color1;
+    }
+}
 
+@each $theme in $themes {
+    .theme-#{$theme} {
+        #background {
+            background-color: get-background-color($theme);
+        }
 
- // css body
- body {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
- }
+        #head {
+            background-color: get-background-color($theme);
+        }
 
- h5 {
-     text-align: center;
- }
+        #head1 {
+            color: get-background-color($theme);
+        }
 
- // Css Gambar
- .img-fluid {
-     transition: transform 0.3s ease-in-out;
-     border-radius: 3rem 3rem 0 5rem;
- }
+    }
+}
 
- .img-fluid:hover {
-     transform: scale(1.1);
- }
+// variable scope
+#background {
+    $background-color: #FFB6C1;
+    background-color: $background-color;
+}
 
+// Kondisi atau Perulangan
 
- // fungsi
- $first-width: 10px;
- $second-width: 10px;
+// css body
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
- @function atur-width($n) {
-     @return $n * $first-width +($n - 1) * $second-width;
- }
+h5 {
+    text-align: center;
+}
 
- .img-fluid {
-     width: atur-width(15);
- }
+// Css Gambar
+.img-fluid {
+    transition: transform 0.3s ease-in-out;
+    border-radius: 3rem 3rem 0 5rem;
+}
 
- //  find us
- #find {
-     margin-top: 100px;
- }
+.img-fluid:hover {
+    transform: scale(1.1);
+}
 
- // Css Maps
- .map-container {
-     position: relative;
-     overflow: hidden;
-     padding-top: 75%;
-     /* Adjust this value to control the aspect ratio of the map */
- }
+// fungsi
+$first-width: 10px;
+$second-width: 10px;
 
- .map-container iframe {
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
- }
+@function atur-width($n) {
+    @return $n * $first-width +($n - 1) * $second-width;
+}
+
+// find us
+#find {
+    margin-top: 100px;
+}
