@@ -3,6 +3,8 @@
 
 // variable global
 $background-color1: #ff1493;
+
+// Kondisi 
 $theme: 'default';
 $themes: (
     'default',
@@ -28,6 +30,7 @@ $themes: (
     }
 }
 
+// perulangan
 @each $theme in $themes {
     .theme-#{$theme} {
         #background {
