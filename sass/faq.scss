@@ -12,6 +12,20 @@ $second-width: 5px;
   padding-left: atur-width(10);
 }
 
+#header {
+  @if $primary-color == blue { 
+      background-color: $danger; 
+  } 
+  
+  @else if $primary-color == red { 
+      background-color: $backgorund-color 
+  } 
+  
+  @else { 
+      background-color: black; 
+  } 
+}
+
 .center-content {
   display: flex;
   justify-content: center;
